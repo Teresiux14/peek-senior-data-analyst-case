@@ -84,7 +84,6 @@ This is a hypothesis, not a proven result. Test it with a control group before s
 
 ## 8. What I skipped, and what I would do next
 
-- **Optional cohort retention table:** built as the view `cohort_retention` (end of `sql/dashboard_views.sql`). Visuals should filter cohorts with fewer than 30 customers.
 - **Duplicate-event check:** not run. Duplicate orders and items were checked.
 - **Return analysis by product category:** the case's third priority. With more time, I would measure return rate by category and brand.
 - **Order-level conversion funnel:** the data has no session-to-order key, so a true funnel needs better event tracking.

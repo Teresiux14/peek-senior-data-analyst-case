@@ -109,8 +109,22 @@ sql/
 analysis/
 └── presentation.pdf       presentation
 ```
-# 11. AI Usage
+## 11. AI Usage
+## Part 3: AI & Analytics
 
+### 1. Proposed workflow: monthly anomaly notes
+
+- **Workflow and data:** SQL flags unusual monthly changes; AI drafts a short note using approved metrics, comparisons, definitions, and reporting dates from `monthly_summary`. No customer IDs, raw transactions, or other partners’ data.
+- **Prompt:** “Summarize the flagged changes using only the supplied figures. Cite the source fields, suggest one next check, and label possible explanations as hypotheses. Flag missing information rather than guessing.”
+- **Guardrails and human review:** Calculate and validate numbers outside the model, enforce partner access before retrieval, and require analyst approval before sending.
+- **Measurement:** Track readership and follow-up actions, factual accuracy and edits, time saved, and useful issues identified. Pause immediately for data leakage or repeated factual errors; discontinue if review effort outweighs the benefit.
+
+### 2. AI use in this challenge
+
+- I used ChatGPT to help me write the cohort retention SQL and understand its logic, then configure the heatmap in Sigma.
+- **Example prompt (paraphrased):** “Help me write BigQuery SQL for monthly cohort retention, from month 0 to 12. Include observed months with no repeat purchases as zero, but leave future months out.”
+- **Validation:** I reviewed the SQL logic and checked the resulting heatmap, including that month 0 showed 100%.
+- **Correction:** AI initially suggested `Today()` for dashboard reporting indicators. I replaced it with a fixed reference aligned with the September 2026 cutoff to keep the analysis reproducible.
 
 
 ## 12. Links

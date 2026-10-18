@@ -129,6 +129,6 @@ analysis/
 
 ## 12. Links
 
-- Dashboard: https://app.sigmacomputing.com/embed/1-3Nemm0ZAwIM3T1mqeTf441
+- Dashboard: https://app.sigmacomputing.com/embed/1-61XNPEKuMmIA5z1xJUkAWf
 - Presentation: 
 - Repository: https://github.com/Teresiux14/peek-senior-data-analyst-case

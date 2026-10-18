@@ -3,7 +3,7 @@
 **The short answer:** TheLook is growing fast, and most of that growth comes from new customers. The weak point is repeat purchase: in June 2026, only 6.2% of active customers bought again within 90 days. Improving repeat purchase is the biggest lever that was found.
 
 **Dashboard (Sigma):** https://app.sigmacomputing.com/embed/1-61XNPEKuMmIA5z1xJUkAWf
-**Presentation:** 
+**Presentation:** https://canva.link/9ljypds25bhnugx
 
 ---
 
@@ -129,5 +129,5 @@ analysis/
 ## 12. Links
 
 - Dashboard: https://app.sigmacomputing.com/embed/1-61XNPEKuMmIA5z1xJUkAWf
-- Presentation: 
+- Presentation: https://canva.link/9ljypds25bhnugx
 - Repository: https://github.com/Teresiux14/peek-senior-data-analyst-case
